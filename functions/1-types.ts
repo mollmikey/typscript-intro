@@ -1,3 +1,6 @@
+// NOTE: the return type of void has been given to you by default.
+// You will likely need to update that to the appropriate type as you complete the function.
+
 // getGreeting should return a string containing
 // 'Hello ' and the contents of `name`
 export function getGreeting(name: string): void {}
@@ -25,8 +28,9 @@ export function printGreeting(): void {}
 // sometimes there may be a third ball, if there is, add it to the sum
 export function sumFrame(): void {}
 
-// greetFullName should return a string containing the full name
+// greetFullName should return a string starting with "Hello" containing the full name
 // including middle name if it exists
+// e.g. "Hello John Jakob Jingleheimer-Schmidt"
 export function greetFullName(): void {}
 
 // ----------- UNIONS -----------
