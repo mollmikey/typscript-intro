@@ -3,8 +3,8 @@
 
 // getGreeting should return a string containing
 // 'Hello ' and the contents of `name`
-export function getGreeting(name: string): void {
-  console.log(name)
+export function getGreeting(name: string): string {
+  return 'Hello ' + name
 }
 
 // getFullName should return a string containing the contents
