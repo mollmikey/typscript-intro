@@ -1,5 +1,7 @@
 // getNextNum should return the first number in the array
-export function getNextNum(): void {}
+export function getNextNum(arr: Array<number>): number {
+  return arr[0]
+}
 
 // getLastSongPlayed should return the last song in the array
 export function getLastSongPlayed(): void {}
