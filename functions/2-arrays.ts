@@ -9,7 +9,16 @@ export function getLastSongPlayed(arr: Array<string>): string {
 }
 
 // findLongestWord should return the longest word in the array
-export function findLongestWord(): void {}
+export function findLongestWord(arr: Array<string>): string {
+  const longestWord = arr.reduce(function (longest, currentWord) {
+    if (currentWord.length > longest.length) return currentWord
+    else return longest
+  }, '')
+
+  console.log(longestWord)
+
+  return longestWord
+}
 
 // fillArrayWithBees should return an array of the correct length, filled with the string 'buzz'
 export function fillArrayWithBees(): void {}
