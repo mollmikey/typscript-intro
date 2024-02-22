@@ -14,7 +14,9 @@ export function getFullName(firstName: string, lastName: string): string {
 }
 
 // addNumbers should return the sum of the two parameters
-export function addNumbers(): void {}
+export function addNumbers(num1: number, num2: number): number {
+  return num1 + num2
+}
 
 // bottlesOfBeerOnTheWall should return a string containing
 // the number of bottles of beer on the wall, but!
