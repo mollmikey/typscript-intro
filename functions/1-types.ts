@@ -21,7 +21,13 @@ export function addNumbers(num1: number, num2: number): number {
 // bottlesOfBeerOnTheWall should return a string containing
 // the number of bottles of beer on the wall, but!
 // if the number of bottles is 0, it should return 'No more bottles of beer on the wall'
-export function bottlesOfBeerOnTheWall(): void {}
+export function bottlesOfBeerOnTheWall(bottleNum: number): string {
+  const speech = `${bottleNum.toString()} bottles of beer on the wall`
+  if (bottleNum > 0) {
+    return speech
+  } else bottleNum = 0
+  return 'No more bottles of beer on the wall'
+}
 
 // printGreeting should not return a value,
 // instead it should console.log a string containing
