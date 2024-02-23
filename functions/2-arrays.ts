@@ -22,9 +22,9 @@ export function findLongestWord(arr: Array<string>): string {
 
 // fillArrayWithBees should return an array of the correct length, filled with the string 'buzz'
 export function fillArrayWithBees(num: number): Array<string> {
-  const buzz = []
-  buzz.push('buzz')
-  console.log(buzz)
+  const arr = []
+  arr.push('buzz') * num
+  console.log(arr)
 }
 
 // sortBySize should return an array of strings sorted by length
